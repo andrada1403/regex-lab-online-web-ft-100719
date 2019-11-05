@@ -26,4 +26,8 @@ end
 
 def valid_phone_number?(phone)
   if phone.grep (/\d{10}\s[()-]/)
+    return true
+  else
+    return false
+  end
 end
