@@ -1,4 +1,4 @@
-9require 'spec_helper'
+require 'spec_helper'
 
 describe "Working with Regular expressions" do
   describe "#starts_with_a_vowel?" do
