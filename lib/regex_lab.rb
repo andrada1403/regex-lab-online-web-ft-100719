@@ -1,4 +1,4 @@
-require pry
+require 'pry'
 def starts_with_a_vowel?(word)
   if word.match(/\w.start_with?[aeiou]/)
     return true
